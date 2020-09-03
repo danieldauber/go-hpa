@@ -1,5 +1,7 @@
 steps:
-  - name: "gcr.io/cloud-builders/go:alpine"
-    args: ["test", "main"]
+  - id: "Executando Testes..."
+    name: "gcr.io/cloud-builders/go"
+    args: ["test", "-v", "./..."]
+    env: ["GOPATH=."]
 
 tags: ["cloud-builders-community"]
