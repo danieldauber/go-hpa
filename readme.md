@@ -1,3 +1,3 @@
 link da imagem no docker hub:
 
-https://hub.docker.com/repository/docker/danieldauber/dockergo
+https://hub.docker.com/repository/docker/danieldauber/go-hpa
