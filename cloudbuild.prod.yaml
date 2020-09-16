@@ -36,4 +36,4 @@ steps:
       - "k8s/deployment-new.yaml"
     env:
       - "CLOUDSDK_COMPUTE_ZONE=us-central1-c"
-      - "CLOUDSDK_CONTAINER_CLUSTER=dockergo"
+      - "CLOUDSDK_CONTAINER_CLUSTER=my-first-cluster-1"
