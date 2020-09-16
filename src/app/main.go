@@ -22,7 +22,7 @@ func greeting(text string) string {
 func main() {
 	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
 		fmt.Printf("%e\n", loop())
-		fmt.Fprintf(w, greeting("Code.education Rocks!"))
+		fmt.Fprintf(w, greeting("Code.education Rocks! com CD"))
 	})
 	http.ListenAndServe(":80", nil)
 }
